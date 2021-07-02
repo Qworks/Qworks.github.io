@@ -1,47 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title>Ben's Modded Minecraft Server</title>
-    <style>
-        .button {
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-        }
-
-        .button1 {
-            background-color: #4CAF50;
-        }
-        /* Green */
-        .button2 {
-            background-color: #008CBA;
-        }
-        /* Blue */
-    </style>
-</head>
 <body>
-    <h1>Turn the Server On</h1>
-    <button class="button button2" onclick="On()">On</button>
-    <h1>Turn the Server Off</h1>
-    <button class="button button2" onclick="Off()">Off</button>
-    <p id="status">Status:</p>
 
-    <script>
-        function On() {
-            var x = document.getElementById("status");
-            x.innerHTML = "Status: ON";
-        }
-        function Off() {
-            var x = document.getElementById("status");
-            x.innerHTML = "Status: OFF";
-        }
-    </script>
+<h1>My First Web Page</h1>
+
+<p>My first paragraph.</p>
+
+<button type="button" onclick="myFunction()">Click me!</button>
+
+<script>
+function myFunction() {
+  document.write("Hello World");
+}
+</script>
+
 </body>
-</html>
+</html> 
